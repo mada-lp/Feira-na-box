@@ -371,8 +371,12 @@ nav a:hover {
 
 /* Custom */
 
-.navbar {
-    position: fixed;
+h1, h2, h3, h4, h5, h5 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-main {
+    /*position: fixed;*/
     left: 0%;
     top: 0%;
     right: 0%;
@@ -380,6 +384,7 @@ nav a:hover {
     height: 60px;
     background-color: #2c5950;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    z-index: 100;
 }
 
 .nav-container {
@@ -414,7 +419,7 @@ nav a:hover {
     width: 100px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 0px;
+    /*margin-top: -0.5rem;*/
 }
 
 .link-block-3 {
@@ -473,7 +478,12 @@ nav a:hover {
 
 #inicio {
   background-color: #fff;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
+  background-image: url('../img/abacate-mobile.png');
+  background-size: cover;
+  background-position: center 235px;
+  min-height: calc(100vh - 60px);
+  background-repeat: no-repeat;
 }
 
 #melancia {
@@ -485,6 +495,7 @@ nav a:hover {
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
+  top: 57px;
 }
 
 #abacate {
@@ -496,27 +507,38 @@ nav a:hover {
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
+  top: 55px;
 }
 
 #pera {
   background-image: url("../img/pera3x.png");
-  width: 170px;
-  height: 170px;
+  width: 100px;
+  height: 100px;
   background-position: -32px -5px;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
-  bottom: 25vh;
+  bottom: 24vh;
 }
 
 #berinjela {
   background-image: url("../img/berinjela3x.png");
-  width: 170px;
-  height: 170px;
-  background-position: 91px 7px;
+  width: 90px;
+  height: 90px;
+  background-position: 41px 0px;
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
+  bottom: 32vh;
+}
+
+#inicio h1 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.27;
+  letter-spacing: -0.19px;
+  text-align: center;
+  color: #004235;
 }
