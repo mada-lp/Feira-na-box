@@ -11,14 +11,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"  crossorigin="anonymous">
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
 
     </head>
     <body>
@@ -43,7 +43,7 @@
         </div>
 
         <div class="main-container">
-            <div class="section" id="inicio">
+            <div class="section container" id="inicio">
               <div id="melancia"></div>
               <div id="abacate"></div>
               <div id="pera"></div>
@@ -51,9 +51,20 @@
 
               <div class="row">
 
-                <div class="col-xs-12">
-                  <img src="img/folha.png">
-                  <h1>Receba Hortifruti de Qualidade Superior na Porta da Sua Casa </h1>
+                <div class="principal col-12">
+                  <img src="img/folha.png" class="my-3">
+                  <h1>Receba Hortifruti de <br>Qualidade Superior na <br>Porta da Sua Casa </h1>
+                  <p>Assinatura Semanal de <br>Produtos Saudáveis <br>Selecionados por Você</p>
+                </div>
+
+                <div class="col-12 flex-column-center" style="margin-top: 13vh;">
+                  <h2 class="pb-2">Personalize agora sua box</h2>
+                  <div class="input-group form-cep mb-3">
+                    <input type="text" class="form-control input-rounded-absolute" placeholder="Digite seu CEP" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary button-rounded-absolute px-4" type="button" id="button-addon2">COMEÇAR</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
