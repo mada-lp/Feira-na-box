@@ -661,6 +661,9 @@ h3 {
   width: 100%;
 }
 
+#como-funciona {
+  background-color: #fbfbfa;
+}
 #como-funciona h1 {
   font-family: 'WorkSans', sans-serif;
   font-size: 46px;
@@ -721,9 +724,10 @@ h3 {
   background-image: url('../img/morango.png');
   width: 31px;
   height: 34px;
-  background-position: 10px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1000;
 }
 
 #como-funciona .abobora {
@@ -752,4 +756,39 @@ h3 {
 .flex-align-end {
   display: flex;
   align-items: flex-end;
+}
+
+.slider {
+  display: flex;
+  overflow: auto;
+}
+.green-bg {
+  background-color: #165e53;
+}
+
+#como-funciona .card {
+  max-height: 138px;
+}
+
+#como-funciona .card img {
+  width: 50px;
+}
+
+#como-funciona .card h5 {
+  color: #165e53;
+  font-size: 16px;
+}
+
+#como-funciona .card p {
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: -0.1px;
+}
+
+#como-funciona .card .green-bg {
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
