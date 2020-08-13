@@ -662,7 +662,7 @@ h3 {
   width: 100%;
 }
 
-#como-funciona {
+.lightgray-bg {
   background-color: #fbfbfa;
 }
 #como-funciona h1 {
@@ -850,4 +850,43 @@ h3 {
   color: #007c38;
   font-weight: lighter;
   margin-bottom: 0.1rem;
+}
+
+.clientes .avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.clientes h4, .clientes h5 {
+  color: #212121;
+  font-family: 'OpenSans', sans-serif;
+  line-height: 1.23;
+  letter-spacing: 0.6px;
+}
+
+.clientes p {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.41px;
+  text-align: center;
+  color: #212121;
+}
+
+.card-carousel {
+  min-height: 365px;
+}
+
+.carousel-indicators li {
+  background-color: #d8d8d8;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #004235;
 }
