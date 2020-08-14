@@ -990,3 +990,30 @@ h3 {
   color: #469b3f;
   font-size: 30px;
 }
+
+.navbar-main.fluxo-compra {
+  background-color: #e8e237;
+  height: 90px;
+}
+
+.navbar-main.fluxo-compra .nav-container {
+  height: 90px;
+  width: 66px;
+  justify-content: center;
+}
+
+.navbar-main.fluxo-compra .nav-container .brand {
+  margin: unset;
+  width: 66px;
+  height: 66px;
+  position: relative;
+}
+
+.navbar-main.fluxo-compra .nav-container .brand img {
+  width: 66px;
+  margin-left: 0;
+}
+
+.fluxo-compra .tipo-box h3 {
+  color: #004235;
+}
