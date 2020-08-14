@@ -1017,3 +1017,7 @@ h3 {
 .fluxo-compra .tipo-box h3 {
   color: #004235;
 }
+
+.fluxo-compra #tamanho {
+  background-image: none;
+}
