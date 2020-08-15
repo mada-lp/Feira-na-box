@@ -1027,7 +1027,7 @@ h3 {
   align-items: baseline;
 }
 
-.produtos .categoria p{
+.produtos .categoria p, .produtos-todos .categoria p{
   font-size: 15px;
   font-weight: bold;
   font-stretch: normal;
@@ -1078,4 +1078,28 @@ h3 {
   font-weight: bold;
   letter-spacing: -0.4px;
   color: #004235;
+}
+
+.produtos-todos .card-produto .produto-img {
+  height: 191px;
+}
+
+.produtos-todos .card-produto .produto-img img {
+  width: 50px;
+  padding: 13px;
+}
+
+.section.produtos-todos h1 {
+  font-size: 22px;
+}
+
+.produtos-todos .voltar {
+  left: 0;
+  font-size: 15px;
+  font-family: 'opensans', sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 10px;
+  color: #469b3f;
 }
