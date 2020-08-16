@@ -1103,3 +1103,45 @@ h3 {
   margin-left: 10px;
   color: #469b3f;
 }
+
+.flex {
+  display: flex;
+}
+
+.fixed-flow-footer {
+  height: 82px;
+  background-color: #004235;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+}
+
+.fixed-flow-footer i {
+  font-size: 33px;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+
+.fixed-flow-footer p {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.fixed-alert-danger {
+  position: fixed;
+  bottom: 82px;
+  height: 33px;
+  color: #fff;
+  width: 100%;
+  background-color: #b22037;
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 3px;
+}
