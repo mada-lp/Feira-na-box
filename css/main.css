@@ -1214,7 +1214,7 @@ h3 {
   font-family: 'WorkSans', sans-serif;
 }
 
-.suabox form label {
+.suabox form label, .assinatura form label {
   font-size: 13px;
   font-weight: lighter;
   font-stretch: normal;
@@ -1237,4 +1237,27 @@ h3 {
   color: #004235;
   text-decoration: underline;
   font-weight: bolder;
+}
+
+.border-top {
+  border-top: 1px solid #ccc !important;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.cupom input {
+  border: solid 1px rgba(151, 151, 151, 0.26);
+}
+
+.cupom button {
+  font-size: 12px;
+  background-color: #004235;
+  border-color: #004235;
+  font-weight: lighter;
+}
+
+.full-width {
+  width: 100% !important;
 }
