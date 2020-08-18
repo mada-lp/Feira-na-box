@@ -772,7 +772,7 @@ h3 {
   z-index: 1000;
 }
 
-#como-funciona .abobora {
+.abobora {
   background-image: url('../img/abobora.png');
   width: 106px;
   height: 80px;
@@ -783,7 +783,7 @@ h3 {
   left: 34px
 }
 
-#como-funciona .laranja {
+.laranja {
   background-image: url('../img/laranja.png');
   width: 58px;
   height: 51px;
@@ -1284,4 +1284,93 @@ h3 {
 
 strong.data {
   color: #469b3f;
+}
+
+.section.checkout .listing .card-header{
+  border-top: none;
+}
+
+.section.checkout .listing p {
+  font-size: 15px;
+  letter-spacing: -0.38px;
+  color: #000000;
+}
+
+.section.checkout .listing h6 {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #165e53;
+}
+
+.section.checkout .listing h5 {
+  color: #165e53;
+}
+
+.loja .morango {
+  background-image: url(../img/morango.png);
+  width: 31px;
+  height: 34px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+  margin-left: 30%;
+}
+
+.loja .abobora {
+  background-image: url('../img/abobora.png');
+  width: 106px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.loja .laranja {
+  background-image: url('../img/laranja.png');
+  width: 58px;
+  height: 51px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 90px;
+  right: 0;
+  text-align: center;
+}
+
+.loja h5 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.38;
+  letter-spacing: -0.16px;
+  text-align: center;
+  color: #165e53;
+}
+
+.loja p {
+  font-size: 16px;
+  line-height: 1.44;
+  letter-spacing: -0.12px;
+  text-align: center;
+  color: #165e53;
+}
+
+.default-button-outline {
+    border-radius: 30px !important;
+    background-color: transparent;
+    color: #004235;
+    border-color: #004235;
+    font-family: 'Work Sans', sans-serif;
 }
