@@ -762,7 +762,7 @@ h3 {
   right: 33px;
 }
 
-#como-funciona .morango {
+ .morango {
   background-image: url('../img/morango.png');
   width: 31px;
   height: 34px;
@@ -1260,4 +1260,28 @@ h3 {
 
 .full-width {
   width: 100% !important;
+}
+
+.section.checkout .principal h1 {
+  color: #165e53;
+  size: 26px;
+  letter-spacing: -0.19px;
+}
+
+.section.checkout {
+  background-color: #fbfbfa;
+}
+
+.section.checkout p {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.45;
+  letter-spacing: 0.52px;
+  text-align: center;
+  color: #165e53;
+}
+
+strong.data {
+  color: #469b3f;
 }
