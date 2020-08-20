@@ -1409,3 +1409,92 @@ strong.data {
   position: unset;
   box-shadow: none;
 }
+
+#brocolis-roxo {
+  background-image: url('../img/brocolisroxo.png');
+  width: 54px;
+  height: 102px;
+  background-size: cover;
+  position: absolute;
+  background-position: 54px;
+  top: 39px;
+  left: 0;
+}
+
+#laranja-roxo {
+  background-image: url('../img/laranjaroxa.png');
+  width: 50px;
+  height: 72px;
+  background-size: cover;
+  position: absolute;
+  background-position: 79px;
+  top: 21px;
+  right: 0;
+}
+
+#melancia-roxo {
+  background-image: url('../img/melanciaroxa.png');
+  width: 73px;
+  height: 110px;
+  background-size: cover;
+  position: absolute;
+  background-position: 76px;
+  top: 275px;
+  left: 0;
+  z-index: 10;
+}
+
+#morango-roxo {
+  background-image: url('../img/morangoroxo.png');
+  width: 43px;
+  height: 73px;
+  background-size: cover;
+  position: absolute;
+  background-position: 68px;
+  top: 302px;
+  right: 0;
+  z-index: 10;
+}
+
+#cep-nao-atende .principal {
+  margin-top: 77px;
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+#cep-nao-atende .principal h1 {
+  color: #b22037;
+  font-size: 23px;
+}
+
+#cep-nao-atende .principal p {
+  line-height: 1.53;
+  letter-spacing: 0.44px;
+}
+
+.purple-bg {
+  background-color: #622a50;
+}
+
+.container.purple-bg {
+  min-height: 70vh;
+}
+
+#cep-nao-atende .card.form-mail h1{
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+#cep-nao-atende .card.form-mail {
+  background-color: #b22037;
+  /*text-align: center;*/
+  color:#ffffff;
+  position: absolute;
+  top: -80px;
+}
+
+#cep-nao-atende .card.form-mail label {
+  font-size: 14px;
+  font-weight: lighter;
+}
