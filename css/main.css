@@ -174,13 +174,13 @@ nav a:hover {
     INTERMEDIATE: Menu
    ==================== */
 
-    nav a {
+    /*nav a {
         float: left;
         width: 27%;
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
-    }
+    }*/
 
     nav li:first-child a {
         margin-left: 0;
@@ -224,10 +224,10 @@ nav a:hover {
         float: left;
     }
 
-    nav {
+    /*nav {
         float: right;
         width: 38%;
-    }
+    }*/
 
 /* ============
     WIDE: Main
@@ -399,6 +399,15 @@ input {
     z-index: 100;
 }
 
+.navbar-main.d-md-block {
+  height: 90px;
+}
+
+.navbar-main.d-md-block .nav-container {
+  margin: 0 auto;
+  height: 90px;
+}
+
 .nav-container {
     position: relative;
     display: -webkit-box;
@@ -473,6 +482,16 @@ input {
     font-size: 22px;
 }
 
+.navbar-main.d-md-block .nav-container .menu-button.user-button {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-size: 16px;
+  height: unset;
+  padding: 11px 15px;
+  font-family: 'WorkSans', sans-serif;
+  font-weight: lighter;
+}
+
 .logo-nav {
     width: 120px;
     margin-left: -10px;
@@ -482,6 +501,23 @@ input {
   color: #fff;
   font-size:34px;
   margin-top: 3px;
+}
+
+.navbar-main .nav-container a.nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'WorkSans', sans-serif;
+  font-weight: lighter;
+  padding: .5rem 2rem;
+}
+
+.navbar-main.d-md-block .nav-container .navbar-brand {
+  margin-top: 54px;
+}
+
+.navbar-main.d-md-block .nav-container .logo-nav {
+    width: 144px;
+    margin-left: -10px;
 }
 
 .section {
@@ -1503,6 +1539,7 @@ strong.data {
   background-color: #fbfbfa;
   padding: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
