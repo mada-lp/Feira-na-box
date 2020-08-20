@@ -94,7 +94,7 @@ nav ul {
     list-style-type: none;
 }
 
-nav a {
+/*nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
@@ -105,7 +105,7 @@ nav a {
 
     color: white;
     background: #e44d26;
-}
+}*/
 
 nav a:hover,
 nav a:visited {
@@ -1497,4 +1497,44 @@ strong.data {
 #cep-nao-atende .card.form-mail label {
   font-size: 14px;
   font-weight: lighter;
+}
+
+.breadcrumb {
+  background-color: #fbfbfa;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: none;
+}
+
+.breadcrumb .breadcrumb-item {
+  color: #fff;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 12px;
+  background-color: #469b3f;
+  padding: 8px 11px;
+  border-right: 1px solid #165e53;
+}
+
+.breadcrumb .breadcrumb-item:nth-last-child(2) {
+  border-top-right-radius: 22.5px;
+  border-bottom-right-radius: 22.5px;
+  border-right: unset;
+  padding-right: 18px;
+}
+
+.breadcrumb-item.active {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #165e53;
+  padding: 14px 11px;
+  background-color: transparent;
+  border-right: unset;
 }
