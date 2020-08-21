@@ -536,6 +536,10 @@ input {
   background-repeat: no-repeat;
 }
 
+#inicio .form-cep {
+  max-width: 440px;
+}
+
 #melancia {
   background-image: url("../img/melancia-copy3x.png");
   width: 170px;
@@ -988,6 +992,7 @@ h3 {
 
 .card-carousel {
   min-height: 420px;
+  max-width: 560px;
 }
 
 .carousel-indicators li {
@@ -1000,6 +1005,11 @@ h3 {
 
 .carousel-indicators .active {
   background-color: #004235;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+    justify-content: center;
 }
 
 .newsletter {
@@ -1618,4 +1628,25 @@ strong.data {
 .flex-center {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 530px) {
+  #inicio {
+    background-position: -35px 135px;
+  }
+}
+
+@media (min-width: 768px) {
+  #inicio {
+    background-position: -35px 135px;
+  }
+  .section {
+    min-height: 75vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #inicio {
+    background-position: -35px 85px;
+  }
 }
