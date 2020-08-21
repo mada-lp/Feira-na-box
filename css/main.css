@@ -513,6 +513,7 @@ input {
 
 .navbar-main.d-md-block .nav-container .navbar-brand {
   margin-top: 54px;
+  z-index: 10;
 }
 
 .navbar-main.d-md-block .nav-container .logo-nav {
@@ -531,7 +532,7 @@ input {
   background-size: cover;
   background-position: -85px 245px;
   /*min-height: calc(100vh - 60px);*/
-  min-height: 100vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
 }
 
@@ -544,7 +545,7 @@ input {
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
-  top: 57px;
+  top: 07px;
 }
 
 #abacate {
@@ -556,7 +557,7 @@ input {
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
-  top: 55px;
+  top: 5px;
 }
 
 #pera {
@@ -568,7 +569,7 @@ input {
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
-  bottom: 22vh;
+  top: 313px;
 }
 
 #berinjela {
@@ -580,7 +581,7 @@ input {
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
-  bottom: 29vh;
+  top: 253px;
 }
 
 .section h1 {
@@ -605,6 +606,11 @@ input {
   color: #165e53;
 }
 
+#inicio .container {
+  position: relative;
+  max-width: 100%;
+}
+
 #inicio .principal{
   display: flex;
   align-items: center;
@@ -612,6 +618,16 @@ input {
   flex-direction: column;
 }
 
+
+#inicio a {
+  color: #fff;
+  text-decoration: underline;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 2.17;
+  letter-spacing: 0.31px;
+}
 .principal img {
   height: 60px;
 }
@@ -629,6 +645,11 @@ input {
   color: #fff;
   border-color: #469b3f;
   font-family: 'Work Sans', sans-serif;
+}
+
+.default-button.btn:hover {
+  color: #fff;
+  background-color: #397a2e;
 }
 
 .input-rounded {
@@ -689,6 +710,7 @@ h3 {
   background-size: cover;
   position: absolute;
   right: 22%;
+  left: unset;
 }
 
 #tipo-box .card-img-top {
@@ -701,6 +723,7 @@ h3 {
 
 #tipo-box .card-title {
   color: #2c5950;
+  flex-wrap: wrap;
 }
 
 .space-between {
@@ -873,6 +896,7 @@ h3 {
 
 #tamanho {
   background-image: url('../img/yellow-bg.jpg');
+  background-repeat: no-repeat;
 }
 
 .card-header.lightgreen-bg h1,.card-header.lightgreen-bg h3{
@@ -912,13 +936,13 @@ h3 {
 }
 
 .box-tamanho .card-body p.title {
-  font-size: 11px;
-  font-weight: bold;
+  font-size: 11px !important;
+  font-weight: bold !important;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.83;
   letter-spacing: normal;
-  text-align: center;
+  text-align: center !important;
   color: #007c38;
 }
 
@@ -927,6 +951,16 @@ h3 {
   color: #007c38;
   font-weight: lighter;
   margin-bottom: 0.1rem;
+}
+
+.section#clientes {
+  min-height: 75vh;
+}
+
+.section#clientes h1 {
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: -0.35px;
 }
 
 .clientes .avatar {
@@ -953,7 +987,7 @@ h3 {
 }
 
 .card-carousel {
-  min-height: 365px;
+  min-height: 420px;
 }
 
 .carousel-indicators li {
@@ -970,7 +1004,7 @@ h3 {
 
 .newsletter {
   background-color: #e4e42d;
-  min-height: 50vh;
+  min-height: 250px;
 }
 
 .newsletter h3 {
@@ -1574,4 +1608,14 @@ strong.data {
   padding: 14px 11px;
   background-color: transparent;
   border-right: unset;
+}
+
+.justify-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
