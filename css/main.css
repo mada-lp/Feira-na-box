@@ -1662,7 +1662,7 @@ strong.data {
 
 @media (min-width: 768px) {
   #inicio {
-    background-position: -35px 135px;
+    background-position: -35px 235px;
     background-image: url(../img/abacate-desktop.png) !important;
   }
 
@@ -1748,7 +1748,7 @@ strong.data {
 
 @media (min-width: 992px) {
   #inicio {
-    background-position: -35px 85px;
+    background-position: -35px 120px;
   }
 
   #inicio .col-12.flex-column-center {
