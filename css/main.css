@@ -1307,6 +1307,10 @@ h3 {
   font-size: 14px;
 }
 
+.suabox .container, .assinatura .container, .container.assinatura {
+  max-width: 600px;
+}
+
 .suabox h5 {
   color: #004235;
 }
@@ -1826,6 +1830,48 @@ strong.data {
     flex-direction: column;
   }
 
+  .breadcrumb .breadcrumb-item:first-child {
+    padding-left: calc((100vw - 720px)/2 + 30px);
+  }
+
+  .suabox .accordion, .assinatura .accordion {
+    box-shadow: 0 2px 188px 0 rgba(0, 0, 0, 0.07);
+    border: none;
+  }
+
+  .suabox .accordion .card-header, .suabox .accordion .card-body, .assinatura .accordion .card-header, .assinatura .accordion .card-body{
+    border: none;
+  }
+
+  .suabox .accordion.form, .assinatura .accordion.form {
+    padding: 2rem 4rem;
+  }
+  .suabox .accordion.form .border-y, .assinatura .accordion.form .border-top {
+    border: none !important;
+  }
+
+  .assinatura.container .row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+
+  .assinatura .accordion.form {
+    background-color: #fff;
+  }
+
+  .checkout .listing {
+    margin-top: 70px;
+  }
+
+  .checkout .listing .border-top {
+    border-top: none !important;
+    border-left: 1px solid #ccc !important;
+  }
+
+  .loja.border-top {
+    border-top: none !important;
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1910,6 +1956,10 @@ strong.data {
     line-height: 1.28;
     letter-spacing: normal;
     text-align: center;
+  }
+
+  .breadcrumb .breadcrumb-item:first-child {
+    padding-left: calc((100vw - 960px)/2 + 30px);
   }
 
 }

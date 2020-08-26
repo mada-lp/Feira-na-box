@@ -62,52 +62,54 @@ leandro@homemmaquina.com.br</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <div class="pt-4 text-center border-top">
-                      <h5 class="mb-4" style="color: #004235;">DADOS DA ENTREGA</h5>
+                  <div class="accordion form mt-md-5">
+                    <div class="col-12">
+                      <div class="pt-4 text-center border-top">
+                        <h5 class="mb-4" style="color: #004235;">DADOS DA ENTREGA</h5>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-12">
-                    <form>
-                      <div class="row mx-0">
-                        <div class="form-group col-12">
-                          <label for="cep">CEP</label>
-                          <input type="number" class="form-control h-50px" id="cep">
+                    <div class="col-12">
+                      <form>
+                        <div class="row mx-0">
+                          <div class="form-group col-12">
+                            <label for="cep">CEP</label>
+                            <input type="number" class="form-control h-50px" id="cep">
+                          </div>
+                          <div class="form-group col-12">
+                            <label for="logradouro">Logradouro</label>
+                            <input type="text" class="form-control h-50px" id="logradouro">
+                          </div>
+                          <div class="col-6 form-group">
+                            <label for="numero">Número</label>
+                            <input type="number" class="form-control h-50px" id="numero">
+                          </div>
+                          <div class="col-6 form-group">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" class="form-control h-50px" id="complemento">
+                          </div>
+                          <div class="form-group col-12">
+                            <label for="bairro">Bairro</label>
+                            <input type="text" class="form-control h-50px" id="bairro">
+                          </div>
+                          <div class="form-group col-6">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control h-50px" id="cidade">
+                          </div>
+                          <div class="form-group col-6">
+                            <label for="estado">Estado</label>
+                            <input type="text" class="form-control h-50px" id="estado">
+                          </div>
                         </div>
                         <div class="form-group col-12">
-                          <label for="logradouro">Logradouro</label>
-                          <input type="text" class="form-control h-50px" id="logradouro">
+                          <label for="diasemana">Escolha o dia da semana para as suas entregas</label>
+                          <select class="form-control h-50px" id="diasemana">
+                            <option>Selecione</option>
+                            <option> </option>
+                            <option> </option>
+                          </select>
                         </div>
-                        <div class="col-6 form-group">
-                          <label for="numero">Número</label>
-                          <input type="number" class="form-control h-50px" id="numero">
-                        </div>
-                        <div class="col-6 form-group">
-                          <label for="complemento">Complemento</label>
-                          <input type="text" class="form-control h-50px" id="complemento">
-                        </div>
-                        <div class="form-group col-12">
-                          <label for="bairro">Bairro</label>
-                          <input type="text" class="form-control h-50px" id="bairro">
-                        </div>
-                        <div class="form-group col-6">
-                          <label for="cidade">Cidade</label>
-                          <input type="text" class="form-control h-50px" id="cidade">
-                        </div>
-                        <div class="form-group col-6">
-                          <label for="estado">Estado</label>
-                          <input type="text" class="form-control h-50px" id="estado">
-                        </div>
-                      </div>
-                      <div class="form-group col-12">
-                        <label for="diasemana">Escolha o dia da semana para as suas entregas</label>
-                        <select class="form-control h-50px" id="diasemana">
-                          <option>Selecione</option>
-                          <option> </option>
-                          <option> </option>
-                        </select>
-                      </div>
-                    </form>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -116,71 +118,97 @@ leandro@homemmaquina.com.br</p>
         </div>
         <div class="container assinatura lightgray-bg">
           <div class="row m-0">
-            <div class="col-12">
-              <div class="pt-4 text-center">
-                <h5 class="mb-4" style="color: #004235;">DADOS DO PAGAMENTO</h5>
-              </div>
-            </div>
-            <div class="col-12 space-between">
-              <small>Subtotal</small>
-              <small>R$ 120,50</small>
-            </div>
-            <div class="col-12 space-between">
-              <small>Frete</small>
-              <small>R$ 00,00</small>
-            </div>
-            <div class="col-12 space-between mb-3">
-              <small><strong>Total</strong></small>
-              <small><strong>R$ 120,50</strong></small>
-            </div>
-            <div class="col-6">
-              <p class="mt-1"><small>Tem Cupom de Desconto?</small></p>
-            </div>
-            <div class="col-6 px-0">
-              <div class="input-group cupom mb-3">
-                <input type="text" class="form-control input-rounded-absolute h-40" placeholder="Digite o cupom">
-                <div class="input-group-append">
-                  <a href="#"><button class="btn default-button button-rounded-absolute px-3 h-40" type="button" id="button-addon2">VALIDAR</button></a>
+            <div class="accordion form">
+              <div class="col-12">
+                <div class="pt-4 text-center">
+                  <h5 class="mb-4" style="color: #004235;">DADOS DO PAGAMENTO</h5>
                 </div>
               </div>
-            </div>
-            <div class="col-12 px-0">
-              <form>
-                <div class="row mx-0">
-                  <div class="form-group col-12">
-                    <label for="numerocartao">Número do Cartão</label>
-                    <input type="number" class="form-control h-50px" id="numerocartao">
-                  </div>
-                  <div class="form-group col-12">
-                    <label for="nomecartao">Nome Impresso no Cartão</label>
-                    <input type="text" class="form-control h-50px" id="nomecartao">
-                  </div>
-                  <div class="col-6 form-group">
-                    <label for="validadecartao">Validade do Cartão</label>
-                    <input type="number" class="form-control h-50px" id="validadecartao">
-                  </div>
-                  <div class="col-6 form-group">
-                    <label for="validadecartao2"></label>
-                    <select class="form-control h-50px mt-1" id="validadecartao2">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-6">
-                    <label for="codigoseguranca">Código de Segurança</label>
-                    <input type="number" class="form-control h-50px" id="codigoseguranca">
+              <div class="col-12 space-between">
+                <small>Subtotal</small>
+                <small>R$ 120,50</small>
+              </div>
+              <div class="col-12 space-between">
+                <small>Frete</small>
+                <small>R$ 00,00</small>
+              </div>
+              <div class="col-12 space-between mb-3">
+                <small><strong>Total</strong></small>
+                <small><strong>R$ 120,50</strong></small>
+              </div>
+              <div class="col-6">
+                <p class="mt-1"><small>Tem Cupom de Desconto?</small></p>
+              </div>
+              <div class="col-6 px-0">
+                <div class="input-group cupom mb-3">
+                  <input type="text" class="form-control input-rounded-absolute h-40" placeholder="Digite o cupom">
+                  <div class="input-group-append">
+                    <a href="#"><button class="btn default-button button-rounded-absolute px-3 h-40" type="button" id="button-addon2">VALIDAR</button></a>
                   </div>
                 </div>
-                <div class="col-12 mb-5"><a href="checkout.html" class="btn default-button py-3 px-4 full-width">FINALIZAR ASSINATURA</a></div>
-              </form>
+              </div>
+              <div class="col-12 px-0 mt-5">
+                <form>
+                  <div class="row mx-0 ">
+                    <div class="form-group col-12">
+                      <label for="numerocartao">Número do Cartão</label>
+                      <input type="number" class="form-control h-50px" id="numerocartao">
+                    </div>
+                    <div class="form-group col-12">
+                      <label for="nomecartao">Nome Impresso no Cartão</label>
+                      <input type="text" class="form-control h-50px" id="nomecartao">
+                    </div>
+                    <div class="col-6 form-group">
+                      <label for="validadecartao">Validade do Cartão</label>
+                      <input type="number" class="form-control h-50px" id="validadecartao">
+                    </div>
+                    <div class="col-6 form-group">
+                      <label for="validadecartao2"></label>
+                      <select class="form-control h-50px mt-1" id="validadecartao2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-6">
+                      <label for="codigoseguranca">Código de Segurança</label>
+                      <input type="number" class="form-control h-50px" id="codigoseguranca">
+                    </div>
+                  </div>
+                  <div class="col-12 mb-5"><a href="checkout.html" class="btn default-button py-3 px-4 full-width">FINALIZAR ASSINATURA</a></div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
          <!-- #main-container -->
+        <div class="section footer">
+            <footer class="wrapper py-5">
+                <img src="img/godaddy.png" alt="" height="48" class="mb-4">
+                <img src="img/logo.png" alt="" class="logo-nav ml-0 mb-4">
+                <div class="social-media mb-4 d-md-none">
+                  <a href="#"><i class="fab fa-facebook-square mr-2"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div>
+                  <p class="text-center">Telefone: 4020-1663<br>
+                Email: pepino@feiranabox.com.br<br>
+                CNPJ 31.591.382/0001-07</p>
+                  <img src="img/cartoes.png" alt="" height="111" class="mb-4">
+                </div>
 
+                <div>
+                  <hr style="width: 100%;">
+                    <small class="text-center">© Feira na Box 2018. Todos os direitos reservados. <br>
+                    Plataforma para clubes AssineStore
+                    </small>
+                </div>
+
+
+            </footer>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
