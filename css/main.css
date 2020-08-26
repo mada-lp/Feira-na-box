@@ -532,15 +532,15 @@ input {
   background-color: #fff;
   /*margin-top: 60px;*/
   background-image: url('../img/abacate-mobile.png');
-  background-size: cover;
-  background-position: -85px 245px;
+  background-size: auto;
+  background-position: center 245px;
   /*min-height: calc(100vh - 60px);*/
   min-height: 718px;
   background-repeat: no-repeat;
 }
 
 #inicio .col-12.flex-column-center {
-  margin-top: 190px;
+  margin-top: 160px;
 }
 
 #inicio .form-cep {
@@ -627,6 +627,9 @@ input {
   align-items: center;
   margin-top: 60px;
   flex-direction: column;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -1654,6 +1657,73 @@ strong.data {
   justify-content: center;
 }
 
+@media (max-height: 420px) {
+  .navbar-main, .nav-container {
+    height: 50px;
+  }
+  #inicio {
+    background-position: center 100px;
+    min-height: unset;
+    padding-bottom: 10px;
+  }
+
+  #inicio .col-12.flex-column-center {
+    margin-top: 40px;
+  }
+
+  #inicio .principal {
+    margin-top: 35px;
+  }
+
+  #melancia {
+    background-size: 65%;
+    background-position: -55px 0;
+  }
+
+  #abacate {
+    background-size: 65%;
+    background-position: 114px 0;
+  }
+
+  #pera {
+    background-size: 65%;
+    background-position: -20px 0;
+    top: 193px;
+  }
+
+  #berinjela {
+    background-size: 65%;
+    background-position: 58px 0;
+    top: 153px;
+  }
+
+  .logo-nav {
+    width: 90px;
+    margin-left: 5px;
+  }
+
+  .principal img {
+    height: 30px;
+  }
+
+  #inicio h1 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  #inicio h2 {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  #inicio p {
+    line-height: 1.1;
+  }
+  #inicio .descricao {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 530px) {
   #inicio {
     background-position: -35px 135px;
@@ -1749,6 +1819,10 @@ strong.data {
 @media (min-width: 992px) {
   #inicio {
     background-position: -35px 120px;
+  }
+
+  #inicio p {
+    font-size: 26px;
   }
 
   #inicio .col-12.flex-column-center {
