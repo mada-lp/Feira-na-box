@@ -9,3 +9,8 @@ $('.burger-btn').click(function() {
 $('.close-btn').click(function() {
   $('.menu-open').css("display", "none");
 });
+
+$(".parallax").paroller({
+  factor: 0.1,
+  type: 'background',
+  direction: 'vertical' });
