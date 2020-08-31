@@ -617,7 +617,7 @@ input {
   color: #165e53;
 }
 
-#inicio .container {
+#inicio .container, #cep-nao-atende .container {
   position: relative;
   max-width: 100%;
 }
@@ -1588,7 +1588,7 @@ strong.data {
 }
 
 .container.purple-bg {
-  min-height: 70vh;
+  height: 62vh;
 }
 
 #cep-nao-atende .card.form-mail h1{
@@ -1601,8 +1601,9 @@ strong.data {
   background-color: #b22037;
   /*text-align: center;*/
   color:#ffffff;
-  position: absolute;
+  /*position: absolute;*/
   top: -80px;
+  z-index: 1;
 }
 
 #cep-nao-atende .card.form-mail label {
@@ -1871,6 +1872,62 @@ strong.data {
   .loja.border-top {
     border-top: none !important;
     margin-top: 50px;
+  }
+
+  #cep-nao-atende .principal h1 {
+    color: #b22037;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  #cep-nao-atende .principal p {
+    color: #165e53;
+    font-size: 26px;
+    line-height: 1.42;
+    letter-spacing: 0.68px;
+  }
+  #cep-nao-atende .container.purple-bg {
+    height: 200px;
+    margin-top: 280px;
+  }
+
+  #cep-nao-atende .card.form-mail {
+    margin-top: -240px;
+  }
+
+  #brocolis-roxo {
+    width: 157px;
+    height: 184px;
+    background-size: cover;
+    position: absolute;
+    background-position: -89px;
+    top: 39px;
+    background-repeat: no-repeat;
+  }
+
+  #melancia-roxo {
+    width: 156px;
+    height: 192px;
+    background-position: -60px;
+    top: unset;
+    background-repeat: no-repeat;
+    bottom: -150px;
+  }
+  #laranja-roxo {
+    width: 110px;
+    height: 140px;
+    background-position: 13px;
+    top: 21px;
+    background-repeat: no-repeat;
+  }
+
+  #morango-roxo {
+    width: 72px;
+    height: 93px;
+    background-position: 104px;
+    top: unset;
+    bottom: -190px;
+    background-repeat: no-repeat;
   }
 }
 
