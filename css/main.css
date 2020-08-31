@@ -1140,6 +1140,17 @@ h3 {
   align-items: center;
 }
 
+.footer .wrapper.d-md-block .flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .wrapper.d-md-block .flex .logo-nav {
+  width: 144px;
+}
+
 .social-media a {
   color: #469b3f;
   font-size: 30px;
@@ -2076,4 +2087,9 @@ strong.data {
 
 .termos .social-media a{
   color: #fff;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
 }
